@@ -1,0 +1,144 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #8B4513;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Pantalla de bienvenida */
+#welcome-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FF8C00; /* Naranja brillante */
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.welcome-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.welcome-content h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+.welcome-content p {
+    margin-bottom: 15px;
+}
+
+.welcome-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.welcome-content input {
+    border: none;
+    border-radius: 5px;
+    font-size: x-large;
+    width: 100%;
+}
+
+.welcome-content button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFD700; /* Amarillo */
+    color: #000000;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.welcome-content button:hover {
+    background-color: #FFC107; /* Amarillo más oscuro */
+}
+
+/* Header */
+header {
+    position: relative;
+    background-color: #FF8C00;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 40px 10px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: 0;
+}
+
+/* Logo */
+header .logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: auto;
+}
+
+/* Navigation */
+nav {
+    background-color: #FFD700;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+/* Main */
+main {
+    padding: 20px;
+    flex: 1;
+}
+
+main h3 {
+    color: #FF8C00;
+    margin-bottom: 15px;
+}
+
+main p {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #8B4513;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto; /* Empuja el footer hacia abajo */
+}
